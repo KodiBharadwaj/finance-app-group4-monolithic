@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "script.js"></script>
+    <script src = "functions.js"></script>
+</head>
+<body>
+    <h2>New user? Signup here </h2>
+    <form onsubmit="signupFunction()">
+        <label name = "userid"> Id : </label>
+        <input type = "text" id = "userid" name = "userid" placeholder="Enter your id here">
+        <label name = "email">Email:</label>
+        <input type = "email" name = "email" id = "email" placeholder="Enter your email here">
+        <label name = "phoneNo">Phone Number:</label>
+        <input type = "text" name = "phoneNo" id = "phoneNo" placeholder="Enter your phone number here">
+        <label name = "passworde">Password:</label>
+        <input type = "password" name = "password" id = "password" placeholder="Enter your password here">
+        <button type = "submit"> Submit </button>
+    </form>
+    <h2>Existing user? Login here </h2>
+    <form onsubmit="formSubmitFunction()">
+        <label name = "id">Id</label>
+        <input type = "text" name = "id" id = "id" placeholder="Enter your Id here">
+        <button type = "submit"> Submit </button>
+    </form>
+<br>
+<br>
+    <div id="containerElements"> </div>
+
+</body>
+</html>
